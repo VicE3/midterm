@@ -1,0 +1,163 @@
+/* THIS IS A CSS REST*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------NAV BAR-------------------*/
+
+
+.all {
+  list-style-type: none;
+  border: 30px solid lightgrey;
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 40px 0px;
+}
+
+li {
+  float: left;
+  padding: 5px 5px;
+}
+
+.help {
+  position: relative;
+}
+
+.li {
+  display:none;
+  position: absolute;
+  left:0;
+  list-style: none;
+}
+.li li {
+  float: none;
+}
+
+.help:hover .li a {
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  padding: 15px 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+}
+
+ul a {
+  color: #196619;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+}
+
+/*--------------------------CONTACT PAGE------------------------------------------*/
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.field {
+  margin: 5px 0px;
+}
+
+.r2hImage {
+  background-image: url("img/r2hImage.png")
+}
+
+
+/*--------------------------------TABLE PAGE---------------------------------------*/
+
+table {
+  text-align: center;
+  margin: 50px;
+}
+
+th {
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  color: #196619;
+}
+
+td {
+  text-align: right;
+  padding: 5px 10px;
+}
+
+/*-------------------------CODEPEN PAGE---------------------------------------*/
+
+#codepen {
+  font-weight: bold;
+  text-align: center;
+  color: #196619;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#pen {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+h2 a {
+  font-size: 18px;
+  color: #196619;
+}
+
+.codeP {
+  padding-top: 5px;
+}
