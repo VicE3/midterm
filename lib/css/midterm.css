@@ -98,6 +98,20 @@ ul a {
   text-decoration: none;
   font-family: 'Poiret One', cursive;
 }
+/*------------------------HOME PAGE---------------------------------*/
+
+.homeP {
+	margin: 20px 30px;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+}
+
+.homeh2 {
+	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	margin: 20px 30px;
+	
+}
 
 /*--------------------------CONTACT PAGE------------------------------------------*/
 
